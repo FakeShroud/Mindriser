@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact Page</h1>
+    <fieldset style="width: 500px">
+      <legend>Send message</legend>
+      <form action="mailto:sabindkl16@hotmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="full name">Name: </label>
+          <input type="text" placeholder="full name" id="name" />
+        </p>
+        <p>
+          <label for="">Phone Number: </label>
+          <input type="number" placeholder="number" id="number" />
+        </p>
+        <p>
+          <label for="email">Email: </label>
+          <input type="email" placeholder="email" id="email" />
+        </p>
+        <p>
+          <h5>Select your gender:
+          </h5>
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+        </p>
+        <p>
+          <h4>Select your hobbies:</h4>
+          <input type="checkbox" name="hobby" id="dance" value="dance">
+          <label for="dance">Dance</label>
+          <input type="checkbox" name="singing" id="singing" value="singing">
+          <label for="singing">Sing</label>
+          <input type="checkbox" name="coding" id="coding" value="coding">
+          <label for="coding">Code</label>
+        </p>
+        <p>
+          <h4>Send a message</h4>
+          <textarea name="text" id="text" cols="30" rows="10" placeholder="Write message"></textarea>
+        </p>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
