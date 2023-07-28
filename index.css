@@ -1,0 +1,23 @@
+/* .ola h1 {
+  color: rgb(255, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+.ola p {
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.olala >p {
+  text-decoration: underline;
+}
+
+.box +p {
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box p:hover {
+  color: white;
+  background-color: black;
+} */
+
